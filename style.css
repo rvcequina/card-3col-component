@@ -60,10 +60,6 @@ main{
       border-radius: 0px 0px 8px 8px;
     
 }
-.card-icon{
-    
-}
-
 .card-title{
     font-family:var(--custom-font2);
     color:white;
@@ -130,7 +126,6 @@ p{
         }
         main{
             flex-direction: row;
-            height: 480px;
             max-width: 1040px;
             margin:auto;
         }
@@ -149,8 +144,7 @@ p{
         }
       
         p{
-            max-width: 195px;
-            min-width: 195px;
+            max-width: 200px;
             margin-bottom: 80px;
             font-size: 14px;
             line-height: 1.8em;
