@@ -60,6 +60,10 @@ main{
       border-radius: 0px 0px 8px 8px;
     
 }
+.card-icon{
+    
+}
+
 .card-title{
     font-family:var(--custom-font2);
     color:white;
@@ -74,10 +78,13 @@ p{
     /* opacity: 0.7; */
 }
 .card-button{
-   padding:10px 20px;
+   
    border-radius: 50px;
    font-family: var(--cutom-font1);
    cursor: pointer;
+    width: 130px;
+    height: 45px;
+    font-size: 13px;
 }
   /* card 1 button */
 .card-container:nth-child(1) .card-button{
@@ -141,7 +148,9 @@ p{
             font-size: 40px;
         }
         .card-button{
-            margin-top:15px
+            margin-top:15px;
+            
+            
         }
         p{
             max-width: 195px;
